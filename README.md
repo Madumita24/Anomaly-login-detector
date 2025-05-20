@@ -35,7 +35,20 @@ Identify unusual login events that may indicate account compromise, bot access, 
    - Histogram of anomaly score distribution
    - Time-series scatterplot of anomalies
 
+## 🧠 Results & Insights
 
+- The Isolation Forest model flagged ~2% of logins as **anomalous**, based on behavioral deviation.
+- High anomaly scores were associated with:
+  - Logins during **odd hours (e.g., 2–5 AM)**
+  - **Device switching** (e.g., sudden move from iOS to Linux)
+  - **Geographical inconsistency** (e.g., frequent location changes)
+  - Users with unusually **high login failure rates**
+- These behaviors may indicate:
+  - Account compromise
+  - Credential stuffing attempts
+  - Insider misuse or bot activity
+
+This shows how machine learning can help detect threats **without needing labeled attack data** — a powerful use case for real-time identity protection systems.
 
 This project demonstrates:
   - Analytical thinking on behavioral data
