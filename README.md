@@ -2,13 +2,13 @@
 
 A machine learning project that detects suspicious login behavior using Isolation Forest — inspired by real-world digital identity threats.
 
----
+
 
 ## 🎯 Objective
 
 Identify unusual login events that may indicate account compromise, bot access, or insider misuse by analyzing login patterns over time.
 
----
+
 
 ## 🛠️ Tools & Tech Stack
 
@@ -17,7 +17,7 @@ Identify unusual login events that may indicate account compromise, bot access, 
 - VSCode (local development)
 - GitHub (version control & showcase)
 
----
+
 
 ## 🔍 Methodology
 
@@ -35,13 +35,13 @@ Identify unusual login events that may indicate account compromise, bot access, 
    - Histogram of anomaly score distribution
    - Time-series scatterplot of anomalies
 
----
 
-- This project demonstrates:
+
+This project demonstrates:
   - Analytical thinking on behavioral data
   - Threat detection with machine learning
   - Clear visual storytelling of risk signals
 
----
+
 
 
